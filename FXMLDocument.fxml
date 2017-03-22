@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="team6Final.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <SplitPane dividerPositions="0.7701778385772914" prefHeight="447.0" prefWidth="733.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TextArea fx:id="textArea" editable="false" layoutX="4.0" layoutY="4.0" prefHeight="125.0" prefWidth="553.0" text="PLEASE INSERT CARD" wrapText="true" />
+                  <TextArea fx:id="textArea1" editable="false" layoutX="4.0" layoutY="136.0" prefHeight="308.0" prefWidth="553.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="283.0" prefWidth="228.0">
+               <children>
+                  <Button fx:id="button1" disable="true" layoutY="1.0" mnemonicParsing="false" onAction="#handleItem1Action" prefHeight="61.0" prefWidth="49.0" text="1" textAlignment="CENTER" />
+                  <Button fx:id="button2" disable="true" layoutX="54.0" layoutY="1.0" mnemonicParsing="false" onAction="#handleItem2Action" prefHeight="61.0" prefWidth="49.0" text="2" textAlignment="CENTER" />
+                  <Button fx:id="button3" disable="true" layoutX="106.0" layoutY="1.0" mnemonicParsing="false" onAction="#handleItem3Action" prefHeight="61.0" prefWidth="49.0" text="3" textAlignment="CENTER" />
+                  <Button fx:id="button4" disable="true" layoutY="73.0" mnemonicParsing="false" onAction="#handleItem4Action" prefHeight="61.0" prefWidth="49.0" text="4" textAlignment="CENTER" />
+                  <Button fx:id="button5" disable="true" layoutX="54.0" layoutY="73.0" mnemonicParsing="false" onAction="#handleItem5Action" prefHeight="61.0" prefWidth="49.0" text="5" textAlignment="CENTER" />
+                  <Button fx:id="button6" disable="true" layoutX="106.0" layoutY="73.0" mnemonicParsing="false" onAction="#handleItem6Action" prefHeight="61.0" prefWidth="49.0" text="6" textAlignment="CENTER" />
+                  <Button fx:id="button7" disable="true" layoutY="147.0" mnemonicParsing="false" onAction="#handleItem7Action" prefHeight="61.0" prefWidth="49.0" text="7" textAlignment="CENTER" />
+                  <Button fx:id="button8" disable="true" layoutX="54.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleItem8Action" prefHeight="61.0" prefWidth="49.0" text="8" textAlignment="CENTER" />
+                  <Button fx:id="button9" disable="true" layoutX="106.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleItem9Action" prefHeight="61.0" prefWidth="49.0" text="9" textAlignment="CENTER" />
+                  <Button fx:id="insertCard" layoutX="15.0" layoutY="280.0" mnemonicParsing="false" onAction="#insertCardAction" prefHeight="61.0" prefWidth="127.0" text="Insert Card" textAlignment="CENTER" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+    </children>
+</AnchorPane>
